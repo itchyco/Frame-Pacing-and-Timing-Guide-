@@ -15,6 +15,10 @@ An explanation of how frame pacing and timing can hinder the stability of your m
 # Examples of Good Frame Pacing and Timing
 <img width="461" height="191" alt="Screenshot 2026-08-27 215137" src="https://github.com/user-attachments/assets/fdc28eaa-1313-4765-94f3-8053a6ceb592" />
 
+Why is that bad? And how can we counter this issue?
+
+
+
 # What tools to use? 
 MSI Afterburner + RTSS | https://www.msi.com/Landing/afterburner (Free).
 <img width="561" height="547" alt="image" src="https://github.com/user-attachments/assets/56260c05-ba51-4d7a-a496-2a86e176ba85" />
