@@ -38,6 +38,8 @@ To combat this issue, you want to apply a frame limiter or V-Sync. Applying in-g
 * How it works: Utilizes NVIDIA Reflex integration within RTSS to interface directly with the frame queue instead of enforcing a traditional software-side buffer.
 * Pros: Bypasses the 1-frame delay of Async mode to dramatically lower system latency while keeping frametimes stable.
 * Cons: Requires an NVIDIA graphics card and compatible API/game framework hooks to function properly.
+5) AMD
+  
 # What tools to use? 
 MSI Afterburner + RTSS | https://www.msi.com/Landing/afterburner (Free).
 <img width="561" height="547" alt="image" src="https://github.com/user-attachments/assets/56260c05-ba51-4d7a-a496-2a86e176ba85" />
