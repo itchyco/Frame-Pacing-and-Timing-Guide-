@@ -1,5 +1,5 @@
 # Frame-Pacing-and-Timing-Guide-
-A explination into how frame pacing and timing can hinder the stability of your machine, no matter the performance power it has and its computing ability.
+An explanation of how frame pacing and timing can hinder the stability of your machine, no matter the performance power it has and its computing ability.
 
 # What is Frame Pacing and Timing?
 
@@ -15,3 +15,6 @@ A explination into how frame pacing and timing can hinder the stability of your 
 # Examples of Good Frame Pacing and Timing
 <img width="461" height="191" alt="Screenshot 2026-08-27 215137" src="https://github.com/user-attachments/assets/fdc28eaa-1313-4765-94f3-8053a6ceb592" />
 
+# What tools to use? 
+MSI Afterburner + RTSS | https://www.msi.com/Landing/afterburner (Free).
+FramePacer | https://store.steampowered.com/app/4874400/framepacer/ (Paid). 
