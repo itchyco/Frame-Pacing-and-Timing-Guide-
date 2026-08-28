@@ -18,7 +18,7 @@ An explanation of how frame pacing and timing can hinder the stability of your m
 Why is that bad? And how can we counter this issue?
 Frame rate is just a count of how many frames show up each second. If those frames don't land in the same even intervals, Bad pacing means frames arrive unevenly even when the average FPS looks fine or high, and that unevenness is what shows up as stutter or judder. Stutter or judder is one of the main causes of your game feeling choppy and uneven. Most people would complain their game is at 100+ (FPS) but feels like it's at 30-40 (FPS) while holding those high frame rates. All that goes back to how each frame is sent and arrives. 
 
-To combat this issue, you want to apply a frame limiter or V-Sync. Applying in-game limiters doesn't fully give you smooth or even frame pacing; most game limiters fail at doing their jobs.  
+To combat this issue, you want to apply a frame limiter or V-Sync. Applying in-game limiters doesn't fully give you smooth or even frame pacing; most game limiters fail at doing their jobs. The only way to achieve that perfect frame timing is to use 3rd-party tools such as RTSS (Rivatuner Statistics Server) and FramePacer (available on Steam). Both apps work very well at maintaining consistent frame timing, which you can see in the examples above.   
 
 
 # What tools to use? 
