@@ -17,4 +17,8 @@ An explanation of how frame pacing and timing can hinder the stability of your m
 
 # What tools to use? 
 MSI Afterburner + RTSS | https://www.msi.com/Landing/afterburner (Free).
+<img width="561" height="547" alt="image" src="https://github.com/user-attachments/assets/56260c05-ba51-4d7a-a496-2a86e176ba85" />
+
+
 FramePacer | https://store.steampowered.com/app/4874400/framepacer/ (Paid). 
+<img width="915" height="336" alt="Screenshot 2026-08-27 230356" src="https://github.com/user-attachments/assets/6d9a7267-998f-48ac-9e9a-94af53e2665c" />
