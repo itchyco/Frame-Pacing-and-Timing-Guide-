@@ -32,14 +32,18 @@ To combat this issue, you want to apply a frame limiter or V-Sync. Applying in-g
 3) Back Edge Sync.
 * How it works: Synchronizes frame output to the trailing end (the back edge) of the refresh cycle interval.
 * Pros: Helps manage tearing issues better than async in specific setups and works hand-in-hand with specialized scanline sync configurations.
-* Cons: Generally exhibits higher overall input latency, making it less optimal for fast-paced competitive action.
+* Cons: Generally exhibits higher overall input latency and inconsistent frame timing, making it less optimal for fast-paced action.
 # Other types of limiters
 4) NVIDIA Reflex.
-* How it works: Utilizes NVIDIA Reflex integration within RTSS to interface directly with the frame queue instead of enforcing a traditional software-side buffer.
-* Pros: Bypasses the 1-frame delay of Async mode to dramatically lower system latency while keeping frametimes stable.
-* Cons: Requires an NVIDIA graphics card and compatible API/game framework hooks to function properly.
-5) AMD
-  
+* How it works: Reflex is a software technology that reduces system latency by eliminating render queues. Reflex forces the CPU and GPU to synchronize so frames are processed just in time for rendering which means overall better frame timing.
+* Pros: Ease of use - Bypasses the 1-frame delay of Async mode to dramatically lower system latency while keeping frametimes stable.
+* Cons: Requires an NVIDIA graphics card and compatible API/game framework hooks to function properly, but not always consistent.
+5) AMD Radeon Anti-Lag 1 or 2
+* How it works: Anti-Lag is a software technology that reduces system latency by eliminating render queues. Anti-Lag forces the CPU and GPU to synchronize so frames are processed just in time for rendering which means overall better frame timing.
+* Pros: Ease of use - Bypasses the 1-frame delay of Async mode to dramatically lower system latency while keeping frametimes stable.
+* Cons: Requires an AMD graphics card and compatible API/game framework hooks to function properly, but not always consistent.
+
+NVIDIA Reflex and AMD Radeon Anti-Lag almost mirror each other in how they process render queues; you could say they are the same thing, just different for each brand.
 # What tools to use? 
 MSI Afterburner + RTSS | https://www.msi.com/Landing/afterburner (Free).
 <img width="561" height="547" alt="image" src="https://github.com/user-attachments/assets/56260c05-ba51-4d7a-a496-2a86e176ba85" />
